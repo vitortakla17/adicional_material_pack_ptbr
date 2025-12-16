@@ -1,0 +1,32 @@
+.page {
+    min-width: 1100px;
+    /* Ainda não sabemos como fazer versões móvel de sites, 
+    então aqui configuramos uma largura mínima de página */
+    max-width: 1600px;
+    /* Aqui configuramos uma largura máxima de página */
+    margin: 0 auto;
+    /* Isso garante que todo o conteúdo seja centralizado em telas maiores que 1600px */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    /* Parâmetros para a seção de cabeçalho */
+}
+
+/* Aqui temos dois exemplos de seletores para lembrá-lo de como 
+configurar estilos para elementos*/
+.header__square-pic {
+    height: 568px;
+    width: 568px;
+}
+
+/*incluindo elementos com modificadores de valor-chave */
+.table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
+}

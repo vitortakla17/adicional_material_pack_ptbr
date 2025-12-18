@@ -13,7 +13,50 @@
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
-    /* Parâmetros para a seção de cabeçalho */
+    display: flex;
+    background-color: #F2F2F2;
+}
+
+.logo_place_header {
+    position: absolute;
+    top: 30px;
+    left: 64px;
+    width: 154px;
+    height: 30px;
+    z-index: 3;
+}
+
+.header__title {
+    width: 730px;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    margin-left: 64px;
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: bold;
+}
+
+.header__subtitle {
+    width: 388px;
+    position: absolute;
+    bottom: 30px;
+    left: 64px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.header__link {
+    color: #2F80ED;
+}
+
+.header__main-illustration {
+    width: 756px;
+    height: 608px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 /* Aqui temos dois exemplos de seletores para lembrá-lo de como 
@@ -29,4 +72,42 @@ configurar estilos para elementos*/
     color: white;
     margin-right: 0;
     margin-top: 80px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+}
+
+.two-columns {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.two-columns__brief {
+    width: 175px;
+    line-height: 1.2;
+    font-size: 18px;
+    color: #2F80ED;
+    font-weight: normal;
+}
+
+.two-columns__main-text {
+    width: 80%;
+    min-width: 784px;
+}
+
+.two-columns__paragraph {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal
+}
+
+.two-columns__span-accent {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: bold;
 }

@@ -68,14 +68,6 @@ configurar estilos para elementos*/
     width: 568px;
 }
 
-/*incluindo elementos com modificadores de valor-chave */
-.table__cell_theme_dark {
-    width: 200px;
-    color: white;
-    margin-right: 0;
-    margin-top: 80px;
-}
-
 .description {
     display: flex;
     justify-content: center;
@@ -206,4 +198,59 @@ configurar estilos para elementos*/
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
+}
+
+.kaufman {
+    background-color: #000000;
+    overflow: hidden;
+    position: relative;
+    z-index: -2;
+}
+
+.section-title_theme_dark {
+    color: white;
+    margin-top: 90px;
+    margin-bottom: 0;
+}
+
+.section-subtitle_theme_dark {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.table_theme_dark {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 80px;
+    column-gap: 10px;
+    padding-bottom: 90px;
+    margin-top: 80px;
+}
+
+.table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+}
+
+.table__heading_theme_dark {
+    color: white;
+}
+
+.table__text_theme_dark {
+    color: white;
+}
+
+.kaufman__triangle {
+    position: absolute;
+    right: -124px;
+    top: 0px;
+    width: 960px;
+    height: 936px;
+    z-index: -1;
+}
+
+.footer {
+    background-color: #000000;
 }

@@ -253,4 +253,69 @@ configurar estilos para elementos*/
 
 .footer {
     background-color: #000000;
+    color: white;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__columns {
+    width: 90%;
+    display: flex;
+    margin: 60px 0 40px;
+    justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+    flex-basis: 711px;
+}
+.logo_place_footer {
+    width: 183px;
+    height: 35px;
+}
+.footer__author {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 170px;
+}
+
+.footer__column__content_about {}
+
+.footer__column-heading {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer__list-item {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.footer__column__content_social {}
+
+.footer__column-link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__social-icons {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+a:hover {
+   opacity: 0.8; 
+}
+
+.footer__column-link:hover {
+    color: #2F80ED;
 }
